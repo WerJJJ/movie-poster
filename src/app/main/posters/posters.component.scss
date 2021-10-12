@@ -1,0 +1,146 @@
+* {
+  font-family: 'Inter', sans-serif;
+  //box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.posters {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.posters__header {
+  display: flex;
+  justify-content: center;
+}
+
+.posters__search {
+  width: 400px;
+  height: 30px;
+  position: relative;
+}
+
+.posters__input {
+  width: 100%;
+  height: 100%;
+  font-size: 18px;
+}
+
+.posters__cross {
+  width: 24px;
+  height: 24px;
+  background-image: url('/../assets/cross.svg');
+  position: absolute;
+  top: 5px;
+  right: 70px;
+}
+
+.posters__cross:hover {
+  cursor: pointer;
+}
+
+.posters__find-button {
+  width: 60px;
+  height: 26px;
+  border: none;
+  border-radius: 10%;
+  background-color: #B69874;
+  position: absolute;
+  top: calc(50% - 11px);
+  right: 0;
+}
+
+.posters__find-button-text {
+  color: #FFFFFF;
+  font-size: 16px;
+}
+
+.posters__find-button:hover {
+  cursor: pointer;
+}
+
+.posters__body {
+  width: 100%;
+  margin: 0;
+  margin-top: 30px;
+}
+
+.posters__title {
+  margin-left: 75px;
+  font-size: 28px;
+}
+
+.posters__slider {
+  margin-top: 30px;
+  width: 100%;
+  height: 250px;
+  position: relative;
+}
+
+.posters__list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style-type: none;
+  width: 1050px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.posters__movie-poster {
+  width: 100%;
+  height: 100%;
+  border-radius: 5%;
+}
+
+.posters__item {
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.posters__movie {
+  width: 150px;
+  height: 225px;
+}
+
+.posters__movie-title {
+  width: 100%;
+  text-align: center;
+  margin-top: 5px ;
+}
+
+.posters__button {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  border: none;
+  border-radius: 50%;
+  background-color: #B69874;
+}
+
+.posters__button._prev {
+  left: 0;
+  top: calc(50% - 20px);
+  transform: rotate(180deg);
+}
+
+.posters__button._next {
+  right: 0;
+  top: calc(50% - 20px);
+}
+
+.posters__button:hover {
+  cursor: pointer;
+}
+
+.posters__arrow-icon {
+  width: 16px;
+  height: 16px;
+  background-image: url("/../assets/arrow.svg");
+  position: absolute;
+  top: 12px;
+  left: 12px;
+}

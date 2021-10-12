@@ -1,0 +1,64 @@
+<header class="header">
+    <div class="header__wrapper">
+      <div class="header__title-container">
+        <a routerLink="/" class="header__link _primary">
+          <h3 class="header__title">iMPosters</h3>
+          <img class="header__picture" src="../../assets/mask.png">
+        </a>
+      </div>
+      <nav class="header__nav">
+        <ul class="header__list">
+          <li class="header__item">
+            <a class="header__link" routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
+              Home
+            </a>
+          </li>
+          <li class="header__item">
+            <a class="header__link" routerLink="/posters" routerLinkActive="active">
+              Movie posters
+            </a>
+          </li>
+          <li class="header__item">
+            <a class="header__link" routerLink="/auth" routerLinkActive="active">
+              Sign in
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+</header>
+<body class="body">
+  <router-outlet></router-outlet>
+</body>
+<footer class="footer">
+  <div class="footer__wrapper">
+      <div class="footer__content">
+        <div class="footer__info">
+          <h3 class="footer__title">iMPosters</h3>
+          <p class="footer__subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus aliquid beatae
+            blanditiis, debitis dignissimos distinctio et fugiat fugit ipsum!</p>
+        </div>
+        <div class="footer__info-toolbar">
+          <div class="footer__stat">
+            <div class="footer__clients">
+              <span class="footer__count">20K+</span>
+              <span class="footer__subtext">People Visiting this year</span>
+            </div>
+            <div class="footer__experience">
+              <span class="footer__count">15</span>
+              <span class="footer__subtext">Years Experience</span>
+            </div>
+          </div>
+          <div class="footer__members">
+            <div class="footer__members-photo">
+              <img src="../../assets/members.png">
+            </div>
+            <div class="footer__trust-members">
+              <h6 class="footer__trust-members-title">Trust Members</h6>
+              <span class="footer__trust-members-subtitle">More than 50k peoples integrate with us.</span>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+</footer>

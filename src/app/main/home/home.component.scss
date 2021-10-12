@@ -1,0 +1,110 @@
+* {
+  font-family: 'Inter', sans-serif;
+}
+
+.home {
+  display: flex;
+  flex-direction: row;
+}
+
+.home__picture {
+  width: 500px;
+  height: 500px;
+  margin-left: 50px;
+}
+
+.home__content {
+  margin-left: 150px;
+  width: 400px;
+}
+
+.home__title {
+  font-size: 32px;
+}
+
+.home__gold-text {
+  color: #A58054;
+  letter-spacing: 0.16em;
+}
+
+.home__subtitle {
+  color: #646464;
+}
+
+.home__price {
+  color: #000000;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.home__button {
+  background-color: #A58054;;
+  width: 160px;
+  height: 55px;
+  border: none;
+  color: #FFFFFF;
+  font-size: 22px;
+  margin-top: 20px;
+}
+
+.home__button:hover {
+  cursor: pointer;
+}
+
+.home__movie-slider {
+  width: 200px;
+  height: 550px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 100px;
+  position: relative;
+}
+
+.home__down-button {
+  width: 40px;
+  height: 40px;
+  border: none;
+  border-radius: 50%;
+  background-color: #B69874;
+  transform: rotate(90deg);
+  position: absolute;
+  bottom: 0;
+}
+
+.home__down-button:hover {
+  cursor: pointer;
+}
+
+.home__arrow-icon {
+  width: 16px;
+  height: 16px;
+  background-image: url("/../assets/arrow.svg");
+  position: absolute;
+  top: 12px;
+  left: 12px;
+}
+
+.home__list {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+  height: 475px;
+}
+
+.home__item {
+  display: flex;
+  flex-direction: column;
+}
+
+.home__item-picture {
+  width: 100px;
+  height: 133px;
+}
+
+.home__item-text {
+  font-size: 12px;
+}
