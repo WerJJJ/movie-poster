@@ -3,6 +3,7 @@ import {NgModule} from "@angular/core";
 import {HomeComponent} from "./home/home.component";
 import {PostersComponent} from "./posters/posters.component";
 import {AuthComponent} from "./auth/auth.component";
+import {PosterComponent} from "./poster/poster.component";
 
 const routes: Routes = [
   {
@@ -12,6 +13,10 @@ const routes: Routes = [
   {
     path: 'posters',
     component: PostersComponent
+  },
+  {
+    path: 'poster',
+    component: PosterComponent
   },
   {
     path: 'auth',
