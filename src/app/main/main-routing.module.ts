@@ -4,6 +4,7 @@ import {HomeComponent} from "./home/home.component";
 import {PostersComponent} from "./posters/posters.component";
 import {AuthComponent} from "./auth/auth.component";
 import {PosterComponent} from "./poster/poster.component";
+import {AccountComponent} from "./account/account.component";
 
 const routes: Routes = [
   {
@@ -21,6 +22,10 @@ const routes: Routes = [
   {
     path: 'auth',
     component: AuthComponent
+  },
+  {
+    path: 'account',
+    component: AccountComponent
   }
 ]
 

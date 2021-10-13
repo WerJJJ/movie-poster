@@ -6,6 +6,7 @@ import { PostersComponent } from './posters/posters.component';
 import { AuthComponent } from './auth/auth.component';
 import {MainRoutingModule} from "./main-routing.module";
 import { PosterComponent } from './poster/poster.component';
+import { AccountComponent } from './account/account.component';
 
 @NgModule({
   declarations: [
@@ -13,7 +14,8 @@ import { PosterComponent } from './poster/poster.component';
     HomeComponent,
     PostersComponent,
     AuthComponent,
-    PosterComponent
+    PosterComponent,
+    AccountComponent
   ],
   imports: [
     BrowserModule,

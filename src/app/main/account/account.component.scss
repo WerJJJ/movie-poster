@@ -1,0 +1,100 @@
+* {
+  font-family: 'Inter', sans-serif;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.account {
+  width: 1000px;
+  height: 100%;
+  margin: 0 auto;
+  padding: 40px;
+}
+
+.account__content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.account__title {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 32px;
+}
+
+.account__list {
+  list-style-type: none;
+  width: 250px;
+  margin-top: 30px;
+}
+
+.account__item {
+  padding: 20px;
+  border: 2px solid #000000;
+  border-bottom: none;
+}
+
+._last-item {
+  border-bottom: 2px solid #000000;
+}
+
+._active-item {
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+.account__personal-info {
+  width: 600px;
+  height: 370px;
+  padding: 30px;
+  background-color: #FFFFFF;
+  position: relative;
+  border: 2px solid #000;
+  margin-top: 34px;
+}
+
+.account__personal-info-title {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 28px;
+}
+
+.account__item:hover {
+  cursor: pointer;
+}
+
+.account__input-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.account__name-input {
+  width: 400px;
+  height: 30px;
+  font-size: 18px;
+}
+
+.account__input-text {
+  color: rgba(0,0,0,.4);
+}
+
+.account__save-button {
+  width: 160px;
+  height: 40px;
+  border: none;
+  background-color: #A58054;
+  border-radius: 5%;
+  position: absolute;
+  bottom: 20px;
+  right: 30px;
+}
+
+.account__save-button:hover {
+  cursor: pointer;
+}
+
+.account__save-button-text {
+  color: #FFFFFF;
+  font-size: 18px;
+}
